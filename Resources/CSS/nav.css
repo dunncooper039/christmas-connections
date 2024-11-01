@@ -63,30 +63,18 @@ nav li {
   .mobile {
     display: none;
   }
+  main {
+    position: relative;
+    top: 4.75rem;
+  }
 }
 @media screen and (max-width: 480px) {
-  #portfolios {
-    flex-direction: column;
-  }
-  h1 {
-    font-size: 2.5rem;
-  }
-  #title-text {
-    width: 75%;
-    top: 2rem;
-  }
   .desktop {
     display: none;
   }
-  #scroll-icon {
-    display: none;
-  }
-  .portfolio {
-    width: 100%;
-  }
-  button {
-    font-size: 2rem;
-    padding: 1rem;
+  main {
+    position: relative;
+    top: 4rem;
   }
 }
 a {
